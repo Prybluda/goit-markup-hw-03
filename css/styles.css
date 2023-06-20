@@ -1,0 +1,252 @@
+:root {
+    --primari-font: "Roboto",
+        sans-serif;
+    --navyblue-cl: #2e2f42;
+    --slate-cl: #434455;
+    --white-cl: #FFFFFF;
+    --iris-cl: #4d5ae5;
+    --hover-focus-cl: #404bbf;
+    --cloud-cl: #F4F4FD;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    color: var(--slate-cl);
+    background: var(--white-cl);
+}
+
+
+/* header*/
+
+/* reset*/
+ul,ol {
+    list-style: none;
+}
+  
+button{
+    cursor: pointer;
+}
+
+.nav {}
+.link {
+    text-decoration: none;
+}
+
+.header-logo {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        color: var(--iris-cl);
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        }
+
+.logo-span {
+    color: var(--navyblue-cl);
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navyblue-cl);
+}
+
+.header-link:hover,
+.header-link:focus {
+color: var(--hover-focus-cl)
+}
+
+.header-list-item {}
+
+
+address {
+    font-style: normal;
+}
+.address.link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-cl);
+}
+
+.address.link:hover,
+.address.link:focus {
+    color: var(--hover-focus-cl);
+}
+
+.address-list-item {}
+
+/* section one*/
+
+.section {}
+
+.one {
+    background: var(--navyblue-cl);
+}
+
+.one-title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        color: var(--white-cl);
+}
+
+.one-btn {
+        font-family: var(--primary-font);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        background: var(--iris-cl);
+        color: var(--white-cl);
+}
+
+.one-btn:hover,
+.one-btn:focus{
+    background-color: var(--hover-focus-cl);
+}
+/* section two*/
+
+.section {}
+
+.two {}
+
+.two-hidden-title {}
+
+.two-list {}
+
+.two-title {
+    
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--navyblue-cl);
+}
+
+.two-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--slate-cl);
+}
+
+/* section three*/
+
+.section {}
+
+.three {}
+
+.three-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        text-transform: capitalize;
+        color: var(--navyblue-cl);
+
+}
+
+.three-list {}
+
+.three-list-item {}
+
+/* section four*/
+
+.section {
+    
+}
+
+.four {
+    background: var(--cloud-cl);
+}
+
+.four-title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-transform: capitalize;
+        letter-spacing: 0.02em;
+        color: var(--navyblue-cl);
+}
+
+.four-list {}
+
+.four-list-item {
+    background-color: var(--white-cl);
+}
+
+.four-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navyblue-cl);
+}
+
+.four-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--slate-cl);
+}
+/*section5*/
+
+.section {}
+
+.five {}
+
+.filters {}
+
+.filter-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris-cl);
+    background: var(--cloud-cl);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color:var(--white-cl);
+    background-color: var(--hover-focus-cl);
+}
+.five-title{
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--navyblue-cl);
+}
+.five-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-cl);
+}
+/* footer*/
+
+.footer {
+    background: var(--navyblue-cl);
+}
+
+.footer-span{
+    color: var(--cloud-cl);
+}
+
+
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cloud-cl);
+}
+
+.list {
+    list-style: none
+}
