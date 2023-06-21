@@ -9,27 +9,72 @@
     --cloud-cl: #F4F4FD;
 }
 
+*,
+*::before, 
+*::after {
+box-sizing: border-box;
+
+}
 body{
     font-family: "Roboto", sans-serif;
     color: var(--slate-cl);
     background: var(--white-cl);
 }
 
+img{
+    display: block;
+}
 
-/* header*/
 
 /* reset*/
+h1,h2,h3,h4,h5,h6, p {
+    margin: 0;
+}
 ul,ol {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
   
+/* header*/
+
 button{
     cursor: pointer;
 }
 
-.nav {}
+.container{
+    width: 1470px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
 .link {
     text-decoration: none;
+}
+
+.header {
+        padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header.list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border-bottom: none;
 }
 
 .header-logo {
@@ -40,6 +85,7 @@ button{
         color: var(--iris-cl);
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        margin-right: 76px;
         }
 
 .logo-span {
@@ -59,12 +105,20 @@ button{
 color: var(--hover-focus-cl)
 }
 
-.header-list-item {}
+.header-list-item {
+    
+}
 
 
 address {
     font-style: normal;
 }
+.address.list {
+    display: flex;
+        align-items: center;
+        gap: 40px;
+}
+
 .address.link {
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -84,8 +138,14 @@ address {
 
 .one {
     background: var(--navyblue-cl);
+    padding-top: 188px;
+    padding-bottom: 188px;
+   
 }
 
+.section.one{
+    text-align: center;
+}
 .one-title {
         text-align: center;
         font-weight: 700;
@@ -93,6 +153,8 @@ address {
         line-height: 1.07;
         letter-spacing: 0.02em;
         color: var(--white-cl);
+        width: 496px;
+    
 }
 
 .one-btn {
@@ -103,6 +165,16 @@ address {
         letter-spacing: 0.04em;
         background: var(--iris-cl);
         color: var(--white-cl);
+        display: flex;
+        justify-content: center;
+           align-items: center;
+            padding: 16px 32px;
+            gap: 10px;
+        
+            width: 236px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+            margin-top: 48px;
 }
 
 .one-btn:hover,
@@ -113,11 +185,19 @@ address {
 
 .section {}
 
-.two {}
+.two {
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
 
 .two-hidden-title {}
 
-.two-list {}
+.two.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
 
 .two-title {
     
@@ -126,6 +206,12 @@ address {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--navyblue-cl);
+        margin-bottom: 8px;
+}
+
+.two-list{
+    width: 264px;
+    
 }
 
 .two-text {
@@ -139,9 +225,14 @@ address {
 
 .section {}
 
-.three {}
+.three {
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
 
 .three-title {
+    padding-top: 60px;
+    margin-bottom: 72px;
     font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -151,9 +242,16 @@ address {
 
 }
 
-.three-list {}
+.three.list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+}
 
-.three-list-item {}
+.three-list-item {
+    width: 360px;
+}
 
 /* section four*/
 
@@ -163,9 +261,12 @@ address {
 
 .four {
     background: var(--cloud-cl);
+    padding-bottom: 120px;
 }
 
 .four-title {
+    padding-top: 120px;
+    margin-bottom: 72px;
         text-align: center;
         font-weight: 700;
         font-size: 36px;
@@ -175,32 +276,68 @@ address {
         color: var(--navyblue-cl);
 }
 
-.four-list {}
+.four.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
 
 .four-list-item {
+
     background-color: var(--white-cl);
 }
 
+.img-four{
+   
+    
+    margin-bottom: 32px;
+}
 .four-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navyblue-cl);
+    margin-bottom: 8px;
+    text-align: center;
 }
 
 .four-text {
+    text-align: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--slate-cl);
+    margin-bottom: 32px;
 }
 /*section5*/
 
 .section {}
 
-.five {}
+.five {
+    padding-bottom: 120px;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
-.filters {}
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 96px;
+    padding-bottom: 72px;
+}
 
 .filter-btn {
     font-family: "Roboto", sans-serif;
@@ -210,6 +347,7 @@ address {
     letter-spacing: 0.04em;
     color: var(--iris-cl);
     background: var(--cloud-cl);
+    padding: 12px 24px;
 }
 
 .filter-btn:hover,
@@ -217,34 +355,66 @@ address {
     color:var(--white-cl);
     background-color: var(--hover-focus-cl);
 }
+
+.portfolio{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: center;
+gap: 24px;
+}
+
+.portfolio-item{
+}
+
+.img-five{
+    padding-bottom: 32px;
+}
 .five-title{
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--navyblue-cl);
+        padding-left: 16px;
+        padding-bottom: 8px;
 }
 .five-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate-cl);
-}
+    padding-left: 16px;
+    padding-bottom: 32px;
+  }
 /* footer*/
 
 .footer {
+    padding-top: 100px;
+        padding-bottom: 100px;
     background: var(--navyblue-cl);
 }
 
+.footer-logo {
+       font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    color: var(--iris-cl);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+ }
 .footer-span{
-    color: var(--cloud-cl);
+      color: var(--cloud-cl);
 }
 
 
 .footer-text {
+       width: 268px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--cloud-cl);
+    margin-top: 17.5px;
 }
 
 .list {
