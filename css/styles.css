@@ -43,7 +43,7 @@ button{
 }
 
 .container{
-    width: 1470px;
+    width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -154,6 +154,8 @@ address {
         letter-spacing: 0.02em;
         color: var(--white-cl);
         width: 496px;
+        margin: 0 auto;
+        margin-bottom: 48px;
     
 }
 
@@ -170,11 +172,9 @@ address {
            align-items: center;
             padding: 16px 32px;
             gap: 10px;
-        
-            width: 236px;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             border-radius: 4px;
-            margin-top: 48px;
+            margin: 0 auto;
 }
 
 .one-btn:hover,
@@ -361,33 +361,38 @@ display: flex;
 align-items: center;
 flex-wrap: wrap;
 justify-content: center;
-gap: 24px;
+gap: 48px 24px;
 }
 
 .portfolio-item{
-    border: 1px solid #E7E9FC;
+    
 }
 
 .img-five{
-    padding-bottom: 32px;
+    padding-bottom: 0;
 }
+
+.five-text {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--slate-cl);
+}
+
 .five-title{
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--navyblue-cl);
-        padding-left: 16px;
-        padding-bottom: 8px;
-}
-.five-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--slate-cl);
-    padding-left: 16px;
-    padding-bottom: 32px;
-  }
+       }
+.five-item {
+   
+    border: 1px solid #E7E9FC;
+        border-top: none;
+        padding: 32px 0 32px 16px;
+   
+      }
 /* footer*/
 
 .footer {
