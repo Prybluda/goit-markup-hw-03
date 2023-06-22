@@ -69,7 +69,7 @@ button{
     justify-content: space-between;
 }
 
-.nav-links {
+.contacts-links {
     display: flex;
         align-items: center;
         gap: 40px;
@@ -94,7 +94,12 @@ button{
 }
 
 .header.list {
-    
+display: flex;
+    align-items: center;
+    gap: 40px;
+    border-bottom: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-link {
