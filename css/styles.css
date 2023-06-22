@@ -90,7 +90,7 @@ display: flex;
     align-items: center;
     gap: 40px;
     border-bottom: none;
-    padding: 24px 0;
+    
 }
 
 .header-link {
@@ -107,7 +107,7 @@ color: var(--hover-focus-cl)
 }
 
 .header-list-item {
-    
+    padding: 24px 0;
 }
 
 
