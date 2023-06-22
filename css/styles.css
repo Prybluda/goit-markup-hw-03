@@ -70,15 +70,12 @@ button{
 }
 
 .nav-links {
+    display: flex;
+        align-items: center;
+        gap: 40px;
+        border-bottom: none;
     padding-top: 24px;
     padding-bottom: 24px;
-}
-
-.header.list{
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    border-bottom: none;
 }
 
 .header-logo {
@@ -94,6 +91,10 @@ button{
 
 .logo-span {
     color: var(--navyblue-cl);
+}
+
+.header.list {
+    
 }
 
 .header-link {
@@ -264,7 +265,7 @@ address {
 
 .four {
     background: var(--cloud-cl);
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .four-title {
@@ -284,6 +285,9 @@ address {
     align-items: center;
     justify-content: center;
     gap: 24px;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    margin: 0 auto;
 }
 
 .four-list-item {
@@ -369,6 +373,7 @@ flex-wrap: wrap;
 justify-content: center;
 gap: 48px 24px;
 
+
 }
 
 .portfolio-item{
@@ -392,12 +397,13 @@ gap: 48px 24px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--navyblue-cl);
+        margin-bottom: 8px
        }
 .five-item {
    
     border: 1px solid #E7E9FC;
         border-top: none;
-        padding: 32px 0 32px 16px;
+        padding: 32px 16px;
    
       }
 /* footer*/
