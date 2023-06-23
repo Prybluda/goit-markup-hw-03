@@ -194,11 +194,11 @@ address {
 
 .two-hidden-title {}
 
-.two.list {
+.two-list {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 24px;
+    justify-content: space-between;
+   
 }
 
 .two-title {
@@ -211,8 +211,8 @@ address {
         margin-bottom: 8px;
 }
 
-.two-list{
-    width: 264px;
+.two-item{
+    width: calc((100% - 3*24px) / 4);
     
 }
 
@@ -228,13 +228,11 @@ address {
 .section {}
 
 .three {
-    padding-top: 60px;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .three-title {
-    padding-top: 60px;
-    margin-bottom: 72px;
+        margin-bottom: 72px;
     font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -244,7 +242,7 @@ address {
 
 }
 
-.three.list {
+.three-list {
     display: flex;
     align-items: center;
     gap: 24px;
@@ -267,8 +265,7 @@ address {
 }
 
 .four-title {
-    padding-top: 120px;
-    margin-bottom: 72px;
+       margin-bottom: 72px;
         text-align: center;
         font-weight: 700;
         font-size: 36px;
@@ -278,7 +275,7 @@ address {
         color: var(--navyblue-cl);
 }
 
-.four.list {
+.four-list {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -312,8 +309,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--slate-cl);
-    margin-bottom: 32px;
-}
+   }
 /*section5*/
 
 .section {}
@@ -340,7 +336,6 @@ address {
     align-items: center;
     justify-content: center;
     gap: 24px;
-    padding-top: 96px;
     margin-bottom: 72px;
 }
 
@@ -435,7 +430,3 @@ gap: 48px 24px;
     letter-spacing: 0.02em;
     color: var(--cloud-cl);
     }
-
-.list {
-    list-style: none
-}
