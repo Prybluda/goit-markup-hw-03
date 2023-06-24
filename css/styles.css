@@ -108,11 +108,6 @@ display: flex;
 color: var(--hover-focus-cl)
 }
 
-.header-list-item {
-   
-}
-
-
 address {
     font-style: normal;
 }
@@ -133,11 +128,7 @@ address {
     color: var(--hover-focus-cl);
 }
 
-.address-list-item {}
-
 /* section one*/
-
-.section {}
 
 .one {
     background: var(--navyblue-cl);
@@ -186,8 +177,6 @@ address {
 }
 /* section two*/
 
-.section {}
-
 .two {
     padding: 120px 0;
 }
@@ -199,11 +188,10 @@ address {
     align-items: center;
     justify-content: center;
     gap: 24px;
-   }
+}
 
 .two-title {
-    
-    font-weight: 500;
+        font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
@@ -225,10 +213,8 @@ address {
 
 /* section three*/
 
-.section {}
-
 .three {
-    padding: 120px 0;
+    padding-bottom: 120px;
 }
 
 .three-title {
@@ -254,10 +240,6 @@ address {
 }
 
 /* section four*/
-
-.section {
-    
-}
 
 .four {
     background: var(--cloud-cl);
@@ -312,8 +294,6 @@ address {
    }
 /*section5*/
 
-.section {}
-
 .five {
     padding-top: 96px;
         padding-bottom: 120px;
@@ -365,17 +345,6 @@ align-items: center;
 flex-wrap: wrap;
 justify-content: center;
 gap: 48px 24px;
-
-
-}
-
-.portfolio-item{
-    
-}
-
-.img-five{
-    
-   
 }
 
 .five-text {
@@ -394,8 +363,7 @@ gap: 48px 24px;
         margin-bottom: 8px
        }
 .five-item {
-   
-    border: 1px solid #E7E9FC;
+       border: 1px solid #E7E9FC;
         border-top: none;
         padding: 32px 16px;
    
